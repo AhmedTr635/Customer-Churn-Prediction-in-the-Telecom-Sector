@@ -1,9 +1,7 @@
 # 📡 Customer Churn Prediction in the Telecom Sector  
 
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-![Issues](https://img.shields.io/github/issues/AhmedTr635/Customer-Churn-Telecom?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/AhmedTr635/Customer-Churn-Telecom?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
+
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Enabled-orange?style=flat-square)
 
 ---
