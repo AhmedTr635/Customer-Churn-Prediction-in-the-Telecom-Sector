@@ -70,16 +70,19 @@ This project aims to:
 
 ## 🤖 Modeling & Evaluation  
 
-We tested multiple classification models and compared their performance using **Accuracy**, **ROC AUC**, and **F1-score**:
+We tested **four models** and evaluated them using **Accuracy**, **Precision**, **Recall**, **F1-score**, and **AUC**.  
 
-| **Model**             | **Accuracy** | **ROC AUC** | **F1-Score** |
-|----------------------|--------------|-------------|--------------|
-| Logistic Regression  | 77%          | 0.77        | 0.74         |
-| SVM                  | 82%          | 0.82        | 0.78         |
-| Random Forest        | 85%          | 0.86        | 0.81         |
-| **XGBoost** ✅        | **88%**      | **0.88**    | **0.85**     |
+| **Model**             | **Accuracy** | **AUC** | **Precision (Churn)** | **Recall (Churn)** | **F1-Score (Churn)** |
+|----------------------|-------------|---------|------------------------|---------------------|------------------------|
+| Logistic Regression  | 77%         | 0.77    | 0.36                   | 0.76                | 0.49                   |
+| SVM                  | 94%         | 0.82    | 0.86                   | 0.65                | 0.74                   |
+| Random Forest        | 96%         | 0.86    | 0.95                   | 0.73                | 0.82                   |
+| **XGBoost** ✅        | **96%**     | **0.88**| **0.95**               | **0.77**            | **0.85**               |
 
 📌 **Best Model → XGBoost** 🎯  
+- ✅ **Highest AUC** → 0.88  
+- ✅ **High F1-score** for both classes  
+- ✅ **Better generalization** on unseen data  
 
 ---
 
